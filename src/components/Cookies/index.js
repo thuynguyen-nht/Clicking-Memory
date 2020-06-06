@@ -7,7 +7,11 @@ export default function Cookies(props) {
         <div className="col">
 
             <div className="img-container">
-                <img alt={props.name} src={props.image} onClick={() => props.shuffleCards(props.id)} className="shuffle" />
+                <img
+                    alt={props.name}
+                    src={props.image}
+                    onClick={() => props.shuffleCards(props.id)}
+                    className="shuffle" />
             </div>
 
         </div>

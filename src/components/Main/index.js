@@ -9,20 +9,30 @@ class Main extends Component {
 
 
     state = {
-        cookies
+        cookies,
+        count: 0
     };
 
-    shuffleCards = () => {
+    countClick = (id) => {
 
+        this.setState({ count: this.state.count + 1 })
     }
 
+
+    shuffleCards = () => {
+        const cookies = this.state.cookies.sort(() => 0.5 - Math.random());
+        this.countClick();
+        this.setState({ cookies })
+    }
 
     render() {
         return (
             <div className="container">
                 <div className="row">
                     <div className="col-md-3">
-                        <Scores />
+                        <Scores
+                            count={this.state.count}
+                        />
                         <Comments />
                     </div>
                     <div className="col">
