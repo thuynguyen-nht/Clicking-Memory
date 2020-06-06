@@ -1,50 +1,62 @@
 [
     {
         "id": 1,
+        "name": "m&m cookie",
         "image": "https://celebratingsweets.com/wp-content/uploads/2018/12/MM-Cookies-1-500x500.jpg"
     },
     {
         "id": 2,
+        "name": "white chocolate chip cookie",
         "image": "https://celebratingsweets.com/wp-content/uploads/2014/08/Chocolate-Cookies-3-500x500.jpg"
     },
     {
         "id": 3,
+        "name": "chocolate chip cookie",
         "image": "https://cdn.loveandlemons.com/wp-content/uploads/2020/02/vegan-chocolate-chip-cookies-500x500.jpg"
     },
     {
         "id": 4,
+        "name": "melted chololate cookie",
         "image": "https://blog.equalexchange.coop/wp-content/uploads/2013/02/favorite-chocolate-chip-cookies-500x500.jpg"
     },
     {
         "id": 5,
+        "name": "dipped chocolate cookie",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRLxtsNnUjyKK1DwLrtethfeJCzDK6BIH2j87PjoXuTqez2KUZa&usqp=CAU"
     },
     {
         "id": 6,
+        "name": "canola chololate cookies",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQoQq1FnYPi8CgPCoCi2MUVdvpIL2bG7pMgp-q6ReL-BbWyMuyA&usqp=CAU"
     },
     {
         "id": 7,
+        "name": "peanut butter cup cookie",
         "image": "https://prettysimplesweet.com/wp-content/uploads/2018/12/Peanut-Butter-Cup-Cookies-500x500.jpg"
     },
     {
         "id": 8,
+        "name": "matcha white chocolate cookie",
         "image": "https://milehighmitts.com/wp-content/uploads/2019/03/matchawcccookies1-500x500.jpg"
     },
     {
         "id": 9,
+        "name": "crumble top thrumbprint cookies",
         "image": "https://abeautifulmess.com/wp-content/uploads/2020/02/crumble-top-thrumbprint-cookies-500x500.jpg"
     },
     {
         "id": 10,
+        "name": "chocolate-coconut-oil-cookies",
         "image": "https://theprettybee.com/wp-content/uploads/2019/10/chocolate-coconut-oil-cookies-500x500.jpg"
     },
     {
         "id": 11,
+        "name": "gluten-free-almond-cookies",
         "image": "https://saltedplains.com/wp-content/uploads/2020/02/gluten-free-almond-cookies-500x500.jpg"
     },
     {
         "id": 12,
+        "name": "Gluten-Free-Sparkle-Sugar-Cookies",
         "image": "https://glutenfreebaking.com/wp-content/uploads/2020/01/Gluten-Free-Sparkle-Sugar-Cookies-500x500.jpg"
     }
 ]
