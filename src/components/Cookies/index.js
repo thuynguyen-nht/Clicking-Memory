@@ -3,6 +3,7 @@ import './style.css'
 
 
 export default function Cookies(props) {
+    // console.log(props)
     return (
         <div className="col">
 
@@ -10,8 +11,10 @@ export default function Cookies(props) {
                 <img
                     alt={props.name}
                     src={props.image}
-                    onClick={() => props.shuffleCards(props.id)}
-                    className="shuffle" />
+                    id={props.id}
+                    onClick={() => props.whenClick(props.id)}
+
+                />
             </div>
 
         </div>

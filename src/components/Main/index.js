@@ -11,18 +11,38 @@ class Main extends Component {
     state = {
         cookies,
         count: 0
+
     };
 
-    countClick = (id) => {
+    // countClick = () => {
 
-        this.setState({ count: this.state.count + 1 })
-    }
+    //     this.setState({ count: this.state.count + 1 })
+    // }
+
+
+    // checkClicked = id => {
+
+    // }
 
 
     shuffleCards = () => {
         const cookies = this.state.cookies.sort(() => 0.5 - Math.random());
-        this.countClick();
+        // this.countClick();
         this.setState({ cookies })
+    }
+
+    whenClick = id => {
+        this.shuffleCards();
+        console.log(id)
+        // const clickedArray = []
+        // for (const value of clickedArray) {
+        //     if (value === id) {
+        //         this.setState({ count: 0 })
+        //     } else {
+        //         clickedArray.push(id)
+        //         this.setState({ count: this.state.count + 1 })
+        //     }
+        // }
     }
 
     render() {
@@ -40,11 +60,12 @@ class Main extends Component {
                             {this.state.cookies.map(cookie => (
 
                                 <Cookies
-                                    shuffleCards={this.shuffleCards}
+                                    whenClick={this.whenClick}
                                     id={cookie.id}
                                     key={cookie.id}
                                     name={cookie.name}
                                     image={cookie.image}
+
                                 />
 
                             ))}
