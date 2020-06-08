@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/clicking-memory/static/css/main.64de596b.chunk.css",
+    "main.css": "/clicking-memory/static/css/main.b41a99da.chunk.css",
     "main.js": "/clicking-memory/static/js/main.196fffcc.chunk.js",
     "main.js.map": "/clicking-memory/static/js/main.196fffcc.chunk.js.map",
     "runtime-main.js": "/clicking-memory/static/js/runtime-main.e85fb59c.js",
@@ -8,15 +8,15 @@
     "static/js/2.c755bf04.chunk.js": "/clicking-memory/static/js/2.c755bf04.chunk.js",
     "static/js/2.c755bf04.chunk.js.map": "/clicking-memory/static/js/2.c755bf04.chunk.js.map",
     "index.html": "/clicking-memory/index.html",
-    "precache-manifest.c44ccf830d2dc2e27effc0068e6dd0fb.js": "/clicking-memory/precache-manifest.c44ccf830d2dc2e27effc0068e6dd0fb.js",
+    "precache-manifest.5e0bd78b1c2f780930af062ed2b92b84.js": "/clicking-memory/precache-manifest.5e0bd78b1c2f780930af062ed2b92b84.js",
     "service-worker.js": "/clicking-memory/service-worker.js",
-    "static/css/main.64de596b.chunk.css.map": "/clicking-memory/static/css/main.64de596b.chunk.css.map",
+    "static/css/main.b41a99da.chunk.css.map": "/clicking-memory/static/css/main.b41a99da.chunk.css.map",
     "static/js/2.c755bf04.chunk.js.LICENSE.txt": "/clicking-memory/static/js/2.c755bf04.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e85fb59c.js",
     "static/js/2.c755bf04.chunk.js",
-    "static/css/main.64de596b.chunk.css",
+    "static/css/main.b41a99da.chunk.css",
     "static/js/main.196fffcc.chunk.js"
   ]
 }
