@@ -5,12 +5,13 @@ Clicking-Memory Game is a memory game with React.
 
 This game is fairly simple to play. There are 12 delicious cookies on the game that you have to remember. It begins as you click on the image. Each 1st time clicked image is giving you 1 point. If you click on the already clicked image, you lose the game. Remember, do not click on the image twice.
 
-## Goal of this project
+## Goals of this project
 
-This project is using React as the frontend framework.
+This project is to show how to use React as the frontend framework.
 
 React makes the process of generating interactive UI becomes so simple by break up an application's UI into components, manage component state, and respond to user events.  
 
+By using React, developer can easily identify the components to edit, styling, and manipulate state of components without changing the DOM.
 
 ## Steps to begin the Reactjs App
 1. Create the app with these commands below:
