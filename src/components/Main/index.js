@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "./style.css"
 import Scores from "../Scores"
 import Comments from "../Comments"
 import Cookies from "../Cookies"
@@ -13,7 +14,7 @@ class Main extends Component {
         cookies,
         count: 0,
         highest: 1,
-        comment: ""
+        comment: "Click on image to play!"
     };
 
     shuffleCards = () => {
@@ -54,11 +55,6 @@ class Main extends Component {
 
     }
 
-    // highestScore = () => {
-    //     var arrayLength = this.add().length
-    //     console.log(arrayLength)
-    //     // this.setState({ highest: this.state.highest === this.add().length })
-    // }
 
     whenClick = id => {
         this.shuffleCards();
@@ -81,7 +77,7 @@ class Main extends Component {
                         />
                     </div>
                     <div className="col">
-                        <div className="row">
+                        <div className="row cookies">
                             {this.state.cookies.map(cookie => (
 
                                 <Cookies

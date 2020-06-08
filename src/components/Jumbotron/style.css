@@ -1,0 +1,13 @@
+.jumbotron{
+    background-image: url("https://pixabay.com/get/54e6d3434353a814f6d1867dda29317d133bdde3534c704c7c2e7edd9348c75d_1920.jpg");
+    color: azure;
+    font-weight: bold;
+    
+}
+
+.blur{
+    background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(1px); 
+  height: inherit;
+	/* width: 50%; */
+}
