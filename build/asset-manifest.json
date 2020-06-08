@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/clicking-memory/static/css/main.300a3e9b.chunk.css",
-    "main.js": "/clicking-memory/static/js/main.b0d6dc7b.chunk.js",
-    "main.js.map": "/clicking-memory/static/js/main.b0d6dc7b.chunk.js.map",
+    "main.js": "/clicking-memory/static/js/main.7c544364.chunk.js",
+    "main.js.map": "/clicking-memory/static/js/main.7c544364.chunk.js.map",
     "runtime-main.js": "/clicking-memory/static/js/runtime-main.e85fb59c.js",
     "runtime-main.js.map": "/clicking-memory/static/js/runtime-main.e85fb59c.js.map",
     "static/js/2.c755bf04.chunk.js": "/clicking-memory/static/js/2.c755bf04.chunk.js",
     "static/js/2.c755bf04.chunk.js.map": "/clicking-memory/static/js/2.c755bf04.chunk.js.map",
     "index.html": "/clicking-memory/index.html",
-    "precache-manifest.9d917528b00c4723776e460a70583d1f.js": "/clicking-memory/precache-manifest.9d917528b00c4723776e460a70583d1f.js",
+    "precache-manifest.56485f07ed8712f0e2826d1df0cc5f09.js": "/clicking-memory/precache-manifest.56485f07ed8712f0e2826d1df0cc5f09.js",
     "service-worker.js": "/clicking-memory/service-worker.js",
     "static/css/main.300a3e9b.chunk.css.map": "/clicking-memory/static/css/main.300a3e9b.chunk.css.map",
     "static/js/2.c755bf04.chunk.js.LICENSE.txt": "/clicking-memory/static/js/2.c755bf04.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e85fb59c.js",
     "static/js/2.c755bf04.chunk.js",
     "static/css/main.300a3e9b.chunk.css",
-    "static/js/main.b0d6dc7b.chunk.js"
+    "static/js/main.7c544364.chunk.js"
   ]
 }

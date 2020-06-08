@@ -12,7 +12,8 @@ class Main extends Component {
     state = {
         cookies,
         count: 0,
-        highest: 0
+        highest: 1,
+        comment: ""
     };
 
     shuffleCards = () => {
@@ -30,28 +31,40 @@ class Main extends Component {
 
     add = (clickedArray, id) => {
 
-        // const { length } = clickedArray;
-        // const id = length + 1;
         const found = clickedArray.some(el => el.id === id);
         if (!found) {
             clickedArray.push({ id })
             this.setState({ count: this.state.count + 1 })
-            this.setState({ highest: this.state.highest + 1 })
+            this.setState({ comment: "You guessed correctly!" })
+            if (this.state.count >= this.state.highest) {
+                this.setState({ highest: this.state.highest + 1 })
+            } else {
+                this.setState({ highest: this.state.highest })
+            }
         } else {
+
             console.log("this id already existed")
+            this.setState({ comment: "You guessed incorrectly!" })
             this.setState({ count: 0 })
             this.clearArray(clickedArray)
         }
         console.log(clickedArray)
+
         return clickedArray;
 
     }
+
+    // highestScore = () => {
+    //     var arrayLength = this.add().length
+    //     console.log(arrayLength)
+    //     // this.setState({ highest: this.state.highest === this.add().length })
+    // }
 
     whenClick = id => {
         this.shuffleCards();
         console.log(id)
         this.add(clickedArray, id)
-
+        // this.highestScore()
     }
 
     render() {
@@ -63,7 +76,9 @@ class Main extends Component {
                             count={this.state.count}
                             highest={this.state.highest}
                         />
-                        <Comments />
+                        <Comments
+                            comment={this.state.comment}
+                        />
                     </div>
                     <div className="col">
                         <div className="row">
