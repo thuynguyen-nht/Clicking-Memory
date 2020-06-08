@@ -4,26 +4,16 @@ import Comments from "../Comments"
 import Cookies from "../Cookies"
 import cookies from "../../cookies.json"
 
+const clickedArray = [];
 
 class Main extends Component {
 
 
     state = {
         cookies,
-        count: 0
-
+        count: 0,
+        highest: 0
     };
-
-    // countClick = () => {
-
-    //     this.setState({ count: this.state.count + 1 })
-    // }
-
-
-    // checkClicked = id => {
-
-    // }
-
 
     shuffleCards = () => {
         const cookies = this.state.cookies.sort(() => 0.5 - Math.random());
@@ -31,18 +21,37 @@ class Main extends Component {
         this.setState({ cookies })
     }
 
+    clearArray = (clickedArray) => {
+        while (clickedArray.length) {
+            clickedArray.pop()
+        }
+        return clickedArray
+    }
+
+    add = (clickedArray, id) => {
+
+        // const { length } = clickedArray;
+        // const id = length + 1;
+        const found = clickedArray.some(el => el.id === id);
+        if (!found) {
+            clickedArray.push({ id })
+            this.setState({ count: this.state.count + 1 })
+            this.setState({ highest: this.state.highest + 1 })
+        } else {
+            console.log("this id already existed")
+            this.setState({ count: 0 })
+            this.clearArray(clickedArray)
+        }
+        console.log(clickedArray)
+        return clickedArray;
+
+    }
+
     whenClick = id => {
         this.shuffleCards();
         console.log(id)
-        // const clickedArray = []
-        // for (const value of clickedArray) {
-        //     if (value === id) {
-        //         this.setState({ count: 0 })
-        //     } else {
-        //         clickedArray.push(id)
-        //         this.setState({ count: this.state.count + 1 })
-        //     }
-        // }
+        this.add(clickedArray, id)
+
     }
 
     render() {
@@ -52,6 +61,7 @@ class Main extends Component {
                     <div className="col-md-3">
                         <Scores
                             count={this.state.count}
+                            highest={this.state.highest}
                         />
                         <Comments />
                     </div>

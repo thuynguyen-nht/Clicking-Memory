@@ -6,6 +6,7 @@ export default function Scores(props) {
         <div className="scores">
             <h2>Your scores:</h2>
             <h1>{props.count}</h1>
+            <h3>Highest scores: <span>{props.highest}</span></h3>
         </div>
     )
 }
